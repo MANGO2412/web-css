@@ -1,0 +1,86 @@
+.button{
+    background-color: aqua;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.button:hover{
+    background-color: brown;
+}
+
+/* other example with css and javascript */
+.btn{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+
+.btn.is-active{
+    background-color: rebeccapurple;
+}
+
+
+/* other example  */
+.cb{
+    height: 50px;
+    width: 50px;
+    background-color: #1ce;
+    transform: translateX(0);
+    transition: transform 1s linear;
+}
+
+.end-state .cb{
+    transform: translateX(400px);
+    
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+
+.ease-in{
+    transition-timing-function: ease-in;
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+
+.cubic1{
+    transition-timing-function: cubic-bezier(.18,.89,.32,1.28);
+}
+
+.cubic2{
+    transition-timing-function: cubic-bezier(.39,2.05,.35,-0.76);
+}
+
+
+section{
+    border: 1px dotted black;
+    width: 450px;
+}
+
+/* example 2 with cb */
+.cb2{
+    background-color: #120e12;
+    width: 300px;
+    height: 300px;
+    /* margin: auto; */
+    padding: 20px;
+}
+
+.cb3{
+    background-color: #1ce;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.cb4{
+    background-color: #9a6;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: #12f;
+    border: 1px solid black;
+    animation: move 3s linear 4s alternate 1 backwards;
+}
+
+@keyframes move{  
+   from{
+    transform: translate(0);
+    background: rgb(23, 23, 30);
+   }
+   50%{
+    transform: translateX(300px);
+   }
+   to{
+    transform: translateX(300px) scale(1.5);
+   }
+}
+
+
